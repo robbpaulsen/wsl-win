@@ -1,9 +1,6 @@
 # README.md
 
 ___
-## **Author**
-
-robbpaulsen
 
 ## **Name**
 
@@ -40,3 +37,4 @@ se ejecutaria con windows powershell o powershell 5 como se le conoce tambien)
 ```powershell
 PS> .\setup.ps1
 ```
+
