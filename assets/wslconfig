@@ -1,0 +1,49 @@
+# Settings apply accross all distros running on Version 2
+[wsl2]
+
+# An absolute Windows path to a custom Linux kernel.
+kernel = C:\\Users\\developer\\wsl2kernel
+
+# Extra feature activated to the kernel
+kernelCommandLine = vsyscall=emulate
+
+# Memory capacity assigned
+memory=12GB
+
+# Use only 4 processors
+processors=6
+
+# VMs always need some swap
+swap=6GB
+
+# Location on the file system of that swap file
+swapfile=C:\\temp\\wsl\\swap.vhdx
+
+# Default behaviour for the containers to manage, use and process the network
+networkingMode = mirrored
+
+# DNS tunneling
+dnsTunneling=true
+
+# Forward the Vm traffic and windows to comunicate through localhost
+#localhostForwarding=true
+
+# Inside the the VM its possible to install another Virtualizaiton technology and use it
+nestedVirtualization=true
+
+# Create reports with highlights of every session
+pageReporting=false
+
+# Apps installed on the guest that actually have a GUI will open and work on host side
+guiApplications=true
+
+# Log every relevant detail from the sssion
+debugConsole=false
+
+# Max Idle time
+vmIdleTimeout=180000
+dnsProxy=false
+defaultVhdSize=67108864000
+
+[experimental]
+bestEffortDnsParsing=true
